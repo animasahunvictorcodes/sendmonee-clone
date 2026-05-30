@@ -1,0 +1,19 @@
+.hero-right{
+    background-color: rgba(0, 0, 0, 0.945);
+    color: rgba(255, 255, 255, 0.349);
+    text-align: center;
+    padding: 20px 10px;
+    font-family: 'DM Mono', monospace;
+}
+
+.hero-right span{
+    color: rgb(14, 177, 87);
+    font-size: 10px;
+}
+
+.hero-right h1{
+    color: white;
+    font-family: 'Syne', sans-serif;
+    font-size: 40px;
+    
+}
