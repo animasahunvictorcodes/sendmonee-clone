@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="marketplace.css">
     <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="about.css">
     <title>Document</title>
 </head>
 <body>
     <nav>
         <img src="images/Sendmonee Logo.webp" alt="Sendmonee Logo">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
         <div class="nav-right">
-            <a href="index.html" class="nav-active">Home</a>
+            <a href="index.html">Home</a>
             <a href="marketplace.html">Marketplace</a>
-            <a href="about.html">About</a>
+            <a href="about.html" class="nav-active">About</a>
             <a href="faq.html">FAQs</a>
             <a href="wire.html">The Wire</a>
         </div>
@@ -22,55 +24,78 @@
 
     <section class="hero">
         <div class="hero-left">
-            <h1>Send. <br>Receive. Save.</h1>
-            <p>Send and receive currencies securely and transfer money effortlessly—all in one place.</p>
-            <div class="app-download-links">
-                <a href=""><img src="images/apple_Store.avif" alt="Download on Apple Store"></a>
-                <a href=""><img src="images/Google Play.avif" alt="Download on Google Play"></a>
-            </div>
+            <h1>About<br>Sendmonee</h1>
+            <p>Our company is passionate about fintech innovation, especially when exploring peer-to-peer payments in particular.</p>
         </div>
 
         <div class="hero-right">
-            <span>LIVE MARKETPLACE</span>
-            <h1>Available <br>Listings</h1>
-            <p>Real-time exchange offers from verified sellers</p>
-            <p>SEND</p>
-            <select name="" id="">
-                <option value="">All</option>z
-                <option value="">GBP</option>
-                <option value="">CAD</option>
-                <option value="">EUR</option>
-                <option value="">NGN</option>
-                <option value="">USD</option>
-            </select>
-            <p>RECIEVE</p>
-            <select name="" id="">
-                <option value="">All</option>
-                <option value="">GBP</option>
-                <option value="">CAD</option>
-                <option value="">EUR</option>
-                <option value="">NGN</option>
-                <option value="">USD</option>
-            </select><br>
+            <img src="images/About hero image.avif" alt="" class="hero-img">
+        </div>
+    </section>
 
-            <p><span>24 listings</span> Updated 10:50:28</p> <button>Refresh</button>
+        <section class="discover mobile-flex">
+        <h2>Our Company is passionate about fintech innovation</h2>
+        <div>
+            <p>Especially when exploring peer-to-peer payments in particular. Our goal is to revolutionize the transfer of funds across Africa and internationally.</p> 
+            <p>"We saw an opportunity to innovate how people send and receive money outside traditional banking methods," says CEO and Co-Founder Deji Soyemi.  "As an easy alternative to visiting a bank branch or sending money electronically, we sought ways to facilitate direct transactions through an ecosystem that is not only easy to use but also envisions a scenario where successful transactions can occur with multiple currencies within one platform." he goes on to say.</p>
 
-            <table>
-                <tr>
-                    <th>SENDMONEE RATE</th>
-                    <th>MARKET RATE</th>
-                    <th>BUYER RECIEVE</th>
-                    <th>SELLER PRICE</th>
-                </tr>
+        </div>
+    </section>
 
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
+    <section class="sucess">
+        <h2>Our solutions, your success</h2>
+        <div>
+            <article>
+                <h3>Our <br>Mission</h3>
+                <p>We are on a mission to innovate social payments beginning with Africa and its diaspora and then expanding worldwide. Our goal is to close the gap between local and international money transfers by providing our users with simple and easy access to foreign currency and exchange whenever they need it.</p>
+            </article>
+            <article>
+                <h3>Innovative global social <br>currency exchange</h3>
+                <p>At SendMonee, We believe in giving control back to our users. Our platform uniquely allows users to quote their own exchange rates within regulatory standards. This feature ensures transparency and fairness in every transaction, separating us from conventional money transfer services.</p>
+            </article>
+            <article></article>
+        </div>
+    </section>
 
-            </table>
+        <section class="info">
+        <div class="info-header">
+            <h2>Stay informed</h2>
+            <a href="" class="blog-btn">Visit Our Blog</a>
+        </div>
+        <div class="container">
+            <article class="blog-card">
+                <div class="card-thumb">
+                    <img src="images/Exciting Ways SendMonee is Revolutionizing Forex.webp" alt="">
+                    <span>TECHNOLOGY</span>
+                </div>
+                <div class="card-body">
+                    <h3>3 Exciting Ways Sendmonee is Revolutionizing Forex Transfers for Africans in the Diaspora</h3>
+                    <p>For Africans living abroad, sending money back home has long been a process fraught with high fees, unfavorable exchange rates, and lengthy transfer times.</p>
+                    <a href="" class="read-btn">Read article</a>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="card-thumb">
+                    <img src="images/Sendmonee Launches First-of-A-Kind Social Marketplace.webp" alt="">
+                    <span>MARKETPLACE</span>
+                </div>
+                <div class="card-body">
+                    <h3>Sendmonee launches first-of-a-kind social marketplace to buy and sell foreign exchange</h3>
+                    <p>In a groundbreaking move that's set to revolutionize the world of international money transfers and currency exchange, SendMonee has unveiled its innovative social marketplace.</p>
+                    <a href="" class="read-btn">Read article</a>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="card-thumb">
+                    <img src="images/The Future of Savings Moves to Fintech Wallets.webp" alt="">
+                    <span>TECHNOLOGY</span>
+                </div>
+                <div class="card-body">
+                    <h3>The Future of savings moves to Fintech Wallets: Revolutionizing personal finance</h3>
+                    <p>In today's fast-paced digital world, the way we save and manage our money is undergoing a dramatic transformation.</p>
+                    <a href="" class="read-btn">Read article</a>
+                </div>
+            </article>
         </div>
     </section>
 

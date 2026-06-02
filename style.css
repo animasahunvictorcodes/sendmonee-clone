@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Syne:wght@400..800&display=swap');
+
 * {
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
@@ -108,7 +111,7 @@ h1 {
     margin-right: 50px;
 }
 
-.hero-img {
+.hero-img{
     width: 100%;
     border-radius: 20px;
     /* height: 600px; */
@@ -149,7 +152,7 @@ h1 {
 .hype {
     display: flex;
     align-items: center;
-    background-color: rgb(250, 250, 250);
+    background-color: rgba(0, 0, 0, 0.05);
     gap: 80px;
 }
 
@@ -203,7 +206,7 @@ h3 {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    background-color: #e2e2e2;
+    background-color: #ffffff;
     width: fit-content;
     border-radius: 50px;
 }
@@ -218,6 +221,7 @@ h3 {
     justify-content: center; /* Centers horizontally */
     align-items: center;
     position: relative;
+    background-size: cover;
 }
 
 @keyframes scroll{
@@ -261,8 +265,8 @@ h3 {
     opacity: 0.9;
 }
 
-.how h2 {
-    font-size: 35px;
+h2 {
+    font-size: 40px;
     margin-bottom: 40px;
 }
 
@@ -519,12 +523,14 @@ h3 {
 .faq-left > div > div{
     border-bottom: 1px solid white;
     padding: 15px 0 40px;
+    position: relative;
+    height: fit-content;
 }
 
 .faq-left div div span{
     font-size: 16px;
     font-weight: 600;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 .faq-left div div p{
@@ -533,13 +539,18 @@ h3 {
     display: none;
 }
 
-.faq-left div div:focus-within p{
+.drop-toggle{
+    display: none;
+}
+
+.drop-toggle:checked ~ .faq-info{
     display: block;
 }
 
-.faq-left > div >div button{
-    float: right;
-    /* margin-left: auto; */
+
+
+.faq-left > div >div label{
+    position: absolute;
     padding: 5px 8px;
     border-radius: 50%;
     border: none;
@@ -547,6 +558,9 @@ h3 {
     background-color: #006666b0;
     color: white;
     font-size: 25px;
+    margin-bottom: auto;
+    right: 0;
+    top: 10px;
 }
 
 .faq-right{
@@ -568,6 +582,7 @@ iframe{
 
 .faq-left{
     flex: 1 0;
+    
 }
 
 footer {
@@ -686,4 +701,26 @@ hr {
     font-size: 13px;
     opacity: 0.7;
     padding-top: 20px;
+}
+
+.discover{
+    display: flex;
+    gap: 30px;
+}
+
+.discover h2{
+    font-size: 40px;
+    font-weight: 600;
+    flex: 1 0;
+    line-height: 1.5;
+}
+
+.discover div{
+    flex: 2 1;
+}
+
+.discover p{
+    font-size: 18px;
+    
+    margin-bottom: 30px;
 }

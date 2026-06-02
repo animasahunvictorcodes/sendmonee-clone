@@ -1,0 +1,35 @@
+.sucess{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.sucess div{
+    display: flex;
+    gap: 30px;
+}
+
+.sucess div article{
+    flex: 1 0 300px;
+    height: 450px;
+    text-align: start;
+    background-color: #22aab1;
+    border-radius: 20px;
+    padding: 10% 20px;
+    color: white;
+}
+
+.sucess div article:last-child{
+    background-image: url(images/Solution\ Image\ Pattern.avif);
+    background-size: cover;
+}
+
+.sucess div article:nth-child(2){background-color: #126e78;}
+
+.sucess div article h3{
+    font-size: 25px;
+    color: white;
+}
+
+.sucess div article p{
+    font-family: 'Inter';
+}

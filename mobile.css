@@ -1,6 +1,6 @@
 
 
-@media (max-width: 780px) {
+@media (max-width: 767px) {
 
     section {
         padding: 60px 24px;
@@ -118,7 +118,6 @@
 
     .how-left{
         flex-direction: column;
-        
     }
 
     .how-card{
@@ -211,5 +210,17 @@
         gap: 20px;
     }
 
+    .mobile-flex{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sucess div{
+        overflow-x: scroll;
+    }
     
+    .sucess div::-webkit-scrollbar{
+        display: none;
+    }
+
 }

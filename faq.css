@@ -1,0 +1,19 @@
+
+.faq-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-con > div{
+    flex: 1 1;
+
+}
+
+.faq-con span{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.faq-con > div > div{
+    text-align: start;
+}
