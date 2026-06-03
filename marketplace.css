@@ -4,6 +4,13 @@
     text-align: center;
     padding: 20px 10px;
     font-family: 'DM Mono', monospace;
+    max-height: 600px;
+    overflow-y: scroll;
+    flex: 1 0 50%;
+}
+
+.hero-right::-webkit-scrollbar{
+    display: none;
 }
 
 .hero-right span{
@@ -19,14 +26,222 @@
     line-height: 50px;
     margin-top: 20px;
     margin-bottom: 10px;
+    letter-spacing: 0px;
+}
+
+.hero-right div label{
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+select{
+    background-color: rgba(255, 255, 255, 0.075);
+    color: rgba(255, 255, 255, 0.452);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+option{
+    background-color: black;
 }
 
 .hero-right p{
     font-family: 'DM Mono';
+    font-size: 0.8rem;
+    margin-bottom: 20px;
 }
 
-.hero-right div:first-child{
-    margin-top: 90px;
-    align-items: start;
+.hero-right div{
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
+.hero-right p span{
+    color: rgba(255, 255, 255, 0.411);
+    letter-spacing: 0;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.021);
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.596);
+}
+
+.hero-right p{
+    display: inline;
+}
+
+.hero-right button{
+    color: rgba(255, 255, 255, 0.493);
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.397);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+table{
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 20px;
+    border-collapse: collapse;
+    border-radius: 70px;
+}
+
+table td{
+
+    align-items: center;
+}
+
+table th{
+    font-size: 0.6rem;
+    background-color: rgba(255, 255, 255, 0.116);
+    padding: 10px;
+    border: none;
+    
+}
+
+.naira{
+    color: rgb(88, 187, 75);
+}
+
+td span{
+    color: white !important;
+    font-size: 1rem !important;
+    font-weight: 600;
+}
+
+td div{
+    color: rgb(16, 129, 54);
+    font-size: 0.8rem;
+    background-color: rgba(16, 129, 54, 0.075);
+    border-radius: 10px;
+    border: 1px solid rgb(16, 129, 54);
+    padding: 2px;
+}
+
+.explain{
+    text-align: center;
+    background-color: rgba(216, 255, 253, 0.267);
+}
+
+.explain > div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.how-cardi{
+    flex: 1 0 300px;
+    text-align: start;
+    /* padding: 0; */
+    background-color: transparent;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.how-cardi img {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+.how-cardi span {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    font-weight: 500;
+}
+
+.how-cardi p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.ejo > div{
+    display: block;
+    background-color: rgba(34, 170, 177, 1);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.ejo-container{
+    margin: 0;
+    padding-top: 0;
+}
+
+.ejo-content{
+    height: 100%;
+    text-align: start;
+}
+
+.ejo-content >div:first-child{
+    padding: 10px;
+    background-color: rgb(255, 255, 255, 0.3);
+    width: fit-content;
+    border-radius: 40px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.ejo-content >div:first-child >span{
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.tab-active{
+    background-color: rgb(14, 114, 119);
+}
+
+.ejo-content h4{
+    font-size: 1.4rem;
+    margin: 20px 0;
+}
+
+.ejo-content li{
+    margin: 10px 0;
+}
+
+.why{
+    display: flex;
+    padding: 5% 8%;
+    align-items: center;
+    gap: 40px;
+}
+
+.why > div:nth-child(2) img{
+    width: 100%;
+}
+
+.why >div{
+    flex: 1 1;
+}
+
+.why p{
+    display: inline;
+}
+
+.why div:first-child img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.why div:first-child p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+.why div:first-child span{
+    font-weight: 700;
+}
+
+.why div:first-child >div >div{
+    display: flex;
+    margin-bottom: 20px;
+}

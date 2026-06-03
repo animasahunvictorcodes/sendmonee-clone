@@ -427,7 +427,7 @@ h2 {
 }
 
 .blog-card {
-    flex: 1;
+    flex: 1 1 30%;
     border-radius: 20px;
     overflow: hidden;
     background-color: white;
@@ -448,9 +448,10 @@ h2 {
     object-fit: cover;
     display: block;
     transition: transform 0.5s ease;
+    background-position: top;
 }
 
-.card-thumb span {
+.card-thumb span{
     position: absolute;
     bottom: 12px;
     left: 20px;
@@ -663,6 +664,7 @@ footer {
     padding: 5px;
     border-radius: 30px;
     width: 100%;
+    justify-content: space-between;
 }
 
 .sub-news input {
@@ -683,7 +685,6 @@ footer {
     color: white;
     font-weight: 600;
     cursor: pointer;
-    width: 35%;
     transition: background-color 0.2s;
 }
 
